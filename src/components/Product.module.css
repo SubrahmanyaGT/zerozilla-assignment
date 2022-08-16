@@ -1,0 +1,47 @@
+.productWrapper{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    height:  80vh;
+    text-align: left;
+}
+
+.productWrapper img{
+    width: 50%;
+    height: 50%;
+}
+.productContent{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+.title{
+    font-weight: bold;
+    font-size:x-large;
+    margin-bottom: 2%;
+}
+.description{
+    margin-bottom: 2%;
+    color: rgb(35, 35, 35);
+}
+.price{
+    margin-bottom: 3%;
+    font-weight: bolder;
+    font-size:x-large;
+}
+.updatCart{
+    font-weight: bolder;
+    font-size:x-large;
+    margin:0 20%;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: blueviolet;
+    background-color: transparent;
+    color: rgb(51, 50, 50);
+}
+.updatCart:hover{
+    border-color: rgb(110, 102, 117);
+    background-color:rgb(181, 131, 228) ;
+    color: rgb(0, 0, 0);
+}

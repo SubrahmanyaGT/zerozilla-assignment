@@ -1,0 +1,89 @@
+.headerWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.profileImage{
+    width: 40px;
+    height: 40px;
+}
+.logo{
+  
+    height: 40px;
+}
+.headerWrapper input{
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    border: 1px solid gray;
+}
+.searchWrapper{
+    width: 100%;
+    margin: 0 10%;
+    position: relative;
+}
+.searchResult{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 5px 10px;
+    box-shadow: 0.1px 0.5px 1px black;
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 20px;
+    
+
+}
+.searchResultList{
+    margin: 10px;
+    color: rgb(58, 58, 58);
+}
+.searchResultList:hover{
+    color: rgb(52, 32, 52);
+    transform: scale(1.001);
+}
+.searchResult img{
+    width: 20px;
+    height: 20px;
+}
+.searchResult button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.searchResultClose{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+.proflieWraper{
+    position: relative;
+}
+.cart{
+    background-color: rgb(82, 44, 117);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 60%;
+    color: rgb(255, 255, 255);
+    top:40%
+}
+.card{
+    padding: 2%;  
+    border-bottom: 1px solid gray;
+
+}
+.card img{
+    vertical-align: middle;
+}
+h1{
+    text-transform: capitalize;
+    color: rgb(136, 72, 161);
+}
